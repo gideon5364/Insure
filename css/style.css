@@ -1,0 +1,131 @@
+.grid-container1{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+.grid-item1{
+    padding-left:70px;
+}
+.grid-container2{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1px;
+
+    background-color: hsl(256,26%,20%);
+    height:350px;
+    margin-top:20px;
+}
+.grid-item5{
+    padding-left:0px;
+    padding-top:35px;
+    color:white;
+}
+.grid-item6{
+    padding-top:170px;
+    color:white;
+    padding-right: 0px;
+}
+.grid-item7{
+    padding-top:35px;
+    padding-left:0px;
+
+}
+.grid-item8{
+}
+.header{
+    padding-left:80px;
+    padding-top:210px;
+}
+
+hr{
+
+}
+.grid-container3{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-left:80px;
+
+}
+.grid-container4{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-left:80px;
+    
+}
+.grid-container5{
+  
+    background-color: hsl(256,26%,20%);
+    height:150px;
+    width:800px;
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item15{
+    color:white;
+    padding-left: 30px;
+    padding-top:20px ;
+    font-size: x-large;
+}
+.grid-item16{
+    color:white;
+    padding-left:180px;
+    padding-top:20px ;
+    font-size: x-small;
+}
+.grid-item17{
+
+}
+.grid-container6{
+    background-color:lightgray;
+    height:350px;
+    width:1500px;
+    margin-top:80px;
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+  }
+  
+  
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+  .navba{
+    float: left ;
+    text-align: center;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
